@@ -1,16 +1,20 @@
-.see{
-    margin-left: 500px;
-    margin-top: -51px;
-}
+
 
 *{
     padding: 0;
 margin: 0;
 
 }
+/* default */
+.see{
+    margin-left: 500px;
+    margin-top: -51px;
+}
+
 img{
     max-width: 100%;
 }
+
 .full{
     width: 600px;
     margin:auto;
@@ -19,13 +23,33 @@ img{
    text-transform: capitalize;
 
 }
+
+.mar{
+    margin: 0 5px;
+}
+/* main */
+
 .ayna {
 	font-size: 27px;
 }
-.profile{
+
+/* myprofile */
+
+
+.cover{
+    border-top: 1px solid #ced7e6;
   
-   
+
 }
+
+.cover-img {
+	border-radius: 10px 10px 0 0;
+	height: 162px;
+	width: 100%;
+}
+
+
+/* coverphoto */
 .img {
 	width: 125px;
 	height: 125px;
@@ -36,39 +60,29 @@ img{
 	text-align: center;
 	border: 5px solid #fff;
 }
-.cover{
-    border-top: 1px solid #ced7e6;
-  
 
-}
-.cover-img {
-	border-radius: 10px 10px 0 0;
-	height: 162px;
-	width: 100%;
-}
+/* profilepicture */
 
 
-.brai{
-    border-radius: 16px;
-}
-
-.mar{
-    margin: 0 5px;
-}
- 
-
-.loj {
+.story{
 
 	padding: 10px 144px;
     background:#1877f2;
     color: #fff;
     border-radius: 13px;
-        }
-   .v{
-      
-    margin-top: -29px;
  
+    }
+ 
+
+    /* add to story */
+
+    .people-v{
+        margin-top: -29px;
+      
       }
+
+
+       
       .user {
         padding: 7px 32px;
         background: #eee;
@@ -76,52 +90,75 @@ img{
         border-radius: 8px;
         font-size: 20px;
     }
-    .fbs {
+  
+
+
+  .fbs {
         font-size: 20px;
         background: #eee;
         padding: 7px 32px;
         border-radius: 8px;
     }
 
-    .friend{
-        border-top: 1px solid #ced7e6;
+
+    /* userdot */
+
+
+    .brai{
+        border-radius: 16px;
     }
-    .ml {
+
+/* .friend-img */
+
+
+
+
+    .stalin {
         margin-left: 130px;
         text-decoration: none;
         color: black;
-    }
-    .ml-s {
-        margin-left: 81px;  
+       }
+
+       /* stalin */
+
+     .sebak{
+        margin-left: 105px;  
         
         text-decoration: none;
         color: black;
    
-          }
+      }
+     
 
+      /* sebak */
 
-.ml-sa{
-    margin-left: 83px;
+      /*  top-friend name */
+ .sapon{
+    margin-left: 101px;
     text-decoration: none;
     color: black;
-  
-}
+    }
 
-.asha {
-    margin-left: 129px;
-    text-decoration: none; 
-     color: black;
+    /* sapon */
+
+  .asha {
+       margin-left: 129px;
+       text-decoration: none; 
+       color: black;
    
-}
+   }
+    /* .asha */
 
-
+    
 .width-img {
 	width: 170px;
 	height: 171px;
 	border-radius: 9px; 
-     }
+}
 
-     
+
+/* bootom-friend name  */
+
 .see-all {
 	padding: 6px 40%;
 	background: #ebedf0;
@@ -132,6 +169,27 @@ img{
  
 }
 
+/* see-all friend */
+
+.friend-img{
+        border-top: 6px solid #d0d4d8;
+  
+      }
+
+.friend-photo{
+  background: #d0d4d8;
+  padding: 9px 17px;
+  border-radius: 38px;
+
+}
+  
+
+
+/* photo img life event */
+    .friend{
+        border-top: 1px solid #ced7e6;
+    }
+    
 .span {
 	padding: 7px 139px;
 	border: 1px solid#d0d4d8;
@@ -140,40 +198,51 @@ img{
 .photo{
     font-size: 24px;
 }
-.friend-img{
-      border-top: 6px solid #d0d4d8;
-    
+
+
+.op {
+	margin-left: 46px;
+	margin-top: 17px;
 }
 
-.friend-photo{
-	background: #d0d4d8;
-	padding: 9px 17px;
-    border-radius: 38px;
-  
+/* extra  */
+
+
+/* post  */
+
+.post{
+    border-top: 6px solid #d0d4d8;
+   
 }
 
-.left{
-    margin-left: 50px;
-}
 .sheris{
     border-radius: 50%;
 }
-.post{
-        border-top: 6px solid #d0d4d8;
-       
-}
 
-.name-post {
-	margin-left: 58px;
-    margin-top: -51px;
 
-}
 .left {
 	margin-left: 509px;
 
 	font-size: 21px;
 }
 
+
+/* post-details  */
+
+.po{
+    border: 1px solid #f5f6f8 ;
+}
+
+
+.name-post {
+	margin-left: 58px;
+    margin-top: -51px;
+
+}
+
+
+
+/* updated-post */
 
 
 .tex{
@@ -183,9 +252,30 @@ img{
 }
 
 
-.text-haha{
-    color: #f9e0a2;
+
+/* reacact */
+
+.profile-1 {
+	font-size: 17px;
 }
+
+
+
+/* profile01 */
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* like comment share */
@@ -195,12 +285,16 @@ img{
 	padding: 5px 72px;
 	border-radius: 17px;
 }
+
+
 .comment {
 	background: #eee;
 	padding: 4px 73px;
 	border-radius: 17px;
 	margin: 0px 15px;
 }
+
+
 .share {
 	background: #eee;
 	padding: 4px 79px;
@@ -209,32 +303,11 @@ img{
 }
 
 /* like comment share */
-.profile-1 {
-	font-size: 17px;
-}
-.op {
-	margin-left: 46px;
-	margin-top: 17px;
-}
-.po{
-    border: 1px solid #f5f6f8 ;
-}
+
 
 
 
 /* link */
-https://web.facebook.com/developerfaruk.me/posts/1078973975851535
-
-
-
-
-https://web.facebook.com/polynews.official/posts/1720063328150595
-
-
-
-https://web.facebook.com/polynews.official
-
-
 
 
 
